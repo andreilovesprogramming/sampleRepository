@@ -1,7 +1,14 @@
 import java.util.*;
 
-public class hello {
+class hello {
+  public void Repository () {
+     System.out.print("This file will be pushed to my local repository.");
+  }
+  
   public static void main (String[] args) {
-    System.out.print("This file will be pushed to my local repository.");
+     Repository repository = new Repository();
+
+     hello.repository();
   }
 }
+
